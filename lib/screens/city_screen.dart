@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myweather/utilities/constants.dart';
 
 class CityScreen extends StatefulWidget {
+  const CityScreen({Key? key}) : super(key: key);
   @override
   _CityScreenState createState() => _CityScreenState();
 }
